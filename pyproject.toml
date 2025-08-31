@@ -7,7 +7,7 @@ authors = [                      # <--
 ]
 license = { text = "MIT" }       # <-- 
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 
 dependencies = [
     
@@ -44,11 +44,11 @@ addopts = "-q"
 
 [tool.black]
 line-length = 88
-target-version = ["py39"]
+target-version = ["py312"]
 
 [tool.isort]
 profile = "black"
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.12"
 strict = true
