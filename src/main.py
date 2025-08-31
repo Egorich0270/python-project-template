@@ -1,16 +1,5 @@
-def add(a: int, b: int) -> int:
-    """
-    Складывает два числа.
-
-    :param a: первое число
-    :param b: второе число
-    :return: сумма чисел
-    """
-    return a + b
-
-
 def main() -> None:
-    print(add(1, 2))
+    pass
 
 
 if __name__ == "__main__":
