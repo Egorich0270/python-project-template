@@ -6,12 +6,17 @@
 
 ## Установка зависимостей
 
-### Установка основных зависимостей проекта
+### Убедитесь что вы в вертульном окружении, это бесплатно
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # Linux/macOS
 .venv\Scripts\activate.ps1  # Windows
+```
+
+### Установка основных зависимостей проекта
+
+```bash
 pip install -e ".[dev,docs,test]"
 ```
 
